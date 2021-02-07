@@ -9,10 +9,6 @@ pipeline {
         BUILD_VERSION = '1.2.0'
     }
 
-    tools {
-        maven 'Maven'
-    }
-
     parameters {
         choice(name: 'Version', choices: ['1.1.0', '1.2.0', '1.3.0'], description: '')
         booleanParam(name: 'runTests', defaultValue: true, description: '')
