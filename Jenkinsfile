@@ -6,8 +6,7 @@ pipeline {
     agent any
 
     environment {
-        BUILD_VERSION = 1.2
-        SERVER_CREDENTIALS = credentials('')
+        BUILD_VERSION = '1.2.0'
     }
 
     tools {
