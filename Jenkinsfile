@@ -9,7 +9,6 @@ Pipeline {
             steps {
                 echo "Building Stage ..."
             }
-
         }
     
         stage("test") {
@@ -17,7 +16,6 @@ Pipeline {
             steps {
                 echo "Testing Stage ..."
             }
-            
         }
 
         
@@ -26,7 +24,6 @@ Pipeline {
             steps {
                 echo "Deploying Stage ..."
             }
-            
         }
     
     }
